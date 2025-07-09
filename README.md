@@ -11,7 +11,7 @@ Sección: 01
 
 ## Usuarios de prueba en DataInitializer
 
-USERS:
+USER:
 {
   "nombre": "Usuario Final",
   "correo": "user@correo.com",
@@ -26,6 +26,7 @@ USERS:
   "nombreRol": "USER"
 }
 
+TECH:
 {
   "nombre": "Soporte Técnico",
   "correo": "tech@correo.com",
