@@ -9,6 +9,30 @@ Sección: 01
 
 -------------------
 
+## Usuarios de prueba en DataInitializer
+
+USERS:
+{
+  "nombre": "Usuario Final",
+  "correo": "user@correo.com",
+  "password": "user123",
+  "nombreRol": "USER"
+}
+
+{
+  "nombre": "Usuario Final 2",
+  "correo": "user2@correo.com",
+  "password": "user123",
+  "nombreRol": "USER"
+}
+
+{
+  "nombre": "Soporte Técnico",
+  "correo": "tech@correo.com",
+  "password": "tech123",
+  "nombreRol": "TECH"
+}
+
 ## Evidencia de pruebas
 
 1. POST login
