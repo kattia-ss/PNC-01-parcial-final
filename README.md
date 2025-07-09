@@ -9,9 +9,23 @@ Sección: 01
 
 -------------------
 
+## Application.yml
+```yaml
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/supportdb
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: tru
+```
+
 ## Usuarios de prueba en DataInitializer
 
 USER:
+```
 {
   "nombre": "Usuario Final",
   "correo": "user@correo.com",
@@ -25,14 +39,17 @@ USER:
   "password": "user123",
   "nombreRol": "USER"
 }
+```
 
 TECH:
+```
 {
   "nombre": "Soporte Técnico",
   "correo": "tech@correo.com",
   "password": "tech123",
   "nombreRol": "TECH"
 }
+```
 
 ## Evidencia de pruebas
 
