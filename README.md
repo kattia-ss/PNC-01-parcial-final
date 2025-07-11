@@ -74,7 +74,16 @@ TECH:
 7. DELETE ticket con rol TECH
    ![image](https://github.com/user-attachments/assets/28ac72c1-01e9-47cc-a848-f128917bd861)
 
-8. DELETE ticket con rol usuario
+   ## Instrucciones de compilación
+   1. Nombrar a la base de datos de PostgreSQL: supportdb
+   2. Usuario de la BD:
+      ```
+        username: postgres
+        password: admin
+      ```
+   3. Buildear el proyecto en el IDE de su preferencia (se utilizó ItelliJ IDEA para este proyecto)
+
+9. DELETE ticket con rol usuario
     ![image](https://github.com/user-attachments/assets/1b2807aa-6569-41e8-8667-5d4287ff8534)
 
 
